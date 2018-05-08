@@ -93,8 +93,7 @@ public class GalleryService {
         if(StringUtils.isEmpty(gallery.getName())){
           gallery.setName("商品相册");
         }
-        int galleryId = galleryMapper.create(gallery);
-        gallery.setId(galleryId);
+        galleryMapper.create(gallery);
       }
     } else {
       gallery = galleryMapper.getById(gallery.getId());
