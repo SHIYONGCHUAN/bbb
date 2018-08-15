@@ -93,9 +93,9 @@
 	          </#if>
 						<div class="input-group">
 	          	<#if q??>
-		          <input type="text" id="search-query" name="q" class="form-control" placeholder="搜索" value="${q}"/>
+		          <input type="text" id="search-query" name="q" class="form-control" placeholder="搜索你感兴趣的用户、行程…" value="${q}"/>
 		          <#else>
-		          <input type="text" id="search-query" name="q" class="form-control" placeholder="搜索" />
+		          <input type="text" id="search-query" name="q" class="form-control" placeholder="搜索你感兴趣的用户、行程…" />
 		          </#if>
 				      <span class="input-group-btn">
 				        <button type="submit" class="btn btn-info active" type="button"><b class="icon-search"></b></button>
